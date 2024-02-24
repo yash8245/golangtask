@@ -11,3 +11,4 @@ The SQLite database schema for storing tasks will include the following fields:
 SOLUTION FOR THE ABOVE TASK 
 
 # Schema created for the task 
+<img width="960" alt="Screenshot 2024-02-24 185818" src="https://github.com/yash8245/golangtask/assets/135498759/1a52d670-ec82-4c8b-96d5-0c09819fcfb0">
