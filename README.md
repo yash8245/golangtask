@@ -18,10 +18,10 @@ SOLUTION FOR THE ABOVE TASK
 
 # SECTION B
 
-# Part 1: Create a new task
-# Endpoint: POST /tasks Accepts a JSON payload containing the task details (title,
-# description, due date). Generates a unique ID for the task and stores it in the database.
-# Returns the created task with the assigned ID.
+Part 1: Create a new task
+Endpoint: POST /tasks Accepts a JSON payload containing the task details (title,
+description, due date). Generates a unique ID for the task and stores it in the database.
+Returns the created task with the assigned ID.
 
 # Solution for Part 1
 <img width="960" alt="Screenshot 2024-02-25 180853" src="https://github.com/yash8245/golangtask/assets/135498759/a9d57f92-f472-4c27-93fc-e06683e4ffc5">
