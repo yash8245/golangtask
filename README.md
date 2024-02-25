@@ -25,3 +25,40 @@ Returns the created task with the assigned ID.
 
 # Solution for Part 1
 <img width="960" alt="Screenshot 2024-02-25 180853" src="https://github.com/yash8245/golangtask/assets/135498759/a9d57f92-f472-4c27-93fc-e06683e4ffc5">
+
+Part 2: Retrieve a task
+Endpoint: GET /tasks/{id} Accepts a task ID as a parameter. Retrieves the
+corresponding task from the database. Returns the task details if found, or an
+appropriate error message if not found.
+
+# Solution for Part 2
+<img width="960" alt="Screenshot 2024-02-25 181347" src="https://github.com/yash8245/golangtask/assets/135498759/b3657c8d-c3c5-492d-977f-e38ffd9117ed">
+
+Part 3: Update a task
+Endpoint: PUT /tasks/{id} Accepts a task ID as a parameter. Accepts a JSON payload
+containing the updated task details (title, description, due date). Updates the
+corresponding task in the database. Returns the updated task if successful, or an
+appropriate error message if not found.
+
+# Solution for Part 3
+First status is setted as pending
+<img width="960" alt="Screenshot 2024-02-25 181648" src="https://github.com/yash8245/golangtask/assets/135498759/b2c5122d-4dbd-422e-9723-063417786b33">
+
+After using PUT Method status updated to complete
+<img width="960" alt="Screenshot 2024-02-25 181700" src="https://github.com/yash8245/golangtask/assets/135498759/b2a385cb-5148-4434-994f-c3d467aca65b">
+
+Part 4: Delete a task
+Endpoint: DELETE /tasks/{id} Accepts a task ID as a parameter. Deletes the
+corresponding task from the database. Returns a success message if the deletion is
+successful, or an appropriate error message if not found.
+
+# Solution for Part 4
+<img width="960" alt="Screenshot 2024-02-25 182010" src="https://github.com/yash8245/golangtask/assets/135498759/ddb7df42-61af-4b90-a39d-04c91888f75d">
+
+Part 5: List all tasks
+Endpoint: GET /tasks Retrieves all tasks from the database. Returns a list of tasks,
+including their details (title, description, due date).
+
+# Solution for Part 5
+<img width="960" alt="Screenshot 2024-02-25 182225" src="https://github.com/yash8245/golangtask/assets/135498759/92e25385-a650-4255-a58b-1b9b3f00ced9">
+
